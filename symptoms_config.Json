@@ -1,0 +1,617 @@
+{
+  "categories": {
+    "Nervous system": [
+      "Headache",
+      "Dizziness",
+      "Vision problems",
+      "Hearing problems",
+      "Loss of smell",
+      "Mood swings"
+    ],
+    "Respiratory": [
+      "Coughing",
+      "Sneezing",
+      "Light shortness of breath"
+    ],
+    "Gastrointestinal": [
+      "Nausea",
+      "Bowel movement issues"
+    ],
+    "Urinary": [
+      "Urination issues"
+    ],
+    "Cardiovascular and chills": [
+      "Heart palpitations",
+      "Chills",
+      "Fever"
+    ],
+    "Muscle and general": [
+      "Weakness",
+      "Pain"
+    ],
+    "ENT and swallowing": [
+      "Runny nose",
+      "Sore throat",
+      "Difficulty swallowing"
+    ]
+  },
+  "symptoms": {
+    "Headache": {
+      "label": "You selected the symptom: headache",
+      "flow": [
+        {
+          "field_id": "type",
+          "question": "What type of headache is it?",
+          "options": [
+            ["Throbbing", "throbbing"],
+            ["Sharp", "sharp"],
+            ["Pressure", "pressure"],
+            ["Burning", "burning"],
+            ["Dull", "dull"]
+          ]
+        },
+        {
+          "field_id": "severity",
+          "question": "How strong is your headache?",
+          "options": [
+            ["Mild", "mild"],
+            ["Moderate", "moderate"],
+            ["Severe", "severe"]
+          ]
+        }
+      ]
+    },
+    "Runny nose": {
+      "label": "You selected the symptom: runny nose",
+      "flow": [
+        {
+          "field_id": "duration",
+          "question": "How long have you had a runny nose?",
+          "options": [
+            ["Less than 3 days", "short"],
+            ["3 to 7 days", "medium"],
+            ["More than 7 days", "long"]
+          ]
+        },
+        {
+          "field_id": "discharge",
+          "question": "What is the nasal discharge like?",
+          "options": [
+            ["Clear", "clear"],
+            ["Yellow", "yellow"],
+            ["Green", "green"]
+          ]
+        }
+      ]
+    },
+    "Nausea": {
+      "label": "You selected the symptom: nausea",
+      "flow": [
+        {
+          "field_id": "vomiting",
+          "question": "Are you also vomiting?",
+          "options": [
+            ["No", "no"],
+            ["Occasionally", "sometimes"],
+            ["Frequently", "often"]
+          ]
+        },
+        {
+          "field_id": "duration",
+          "question": "How long have you felt nauseous?",
+          "options": [
+            ["Less than 24 hours", "short"],
+            ["1 to 3 days", "medium"],
+            ["More than 3 days", "long"]
+          ]
+        }
+      ]
+    },
+    "Sore throat": {
+      "label": "You selected the symptom: sore throat",
+      "flow": [
+        {
+          "field_id": "swallow",
+          "question": "Does swallowing hurt a lot?",
+          "options": [
+            ["Only a little", "mild"],
+            ["Yes, it is painful", "strong"],
+            ["Very hard to swallow", "severe"]
+          ]
+        },
+        {
+          "field_id": "duration",
+          "question": "How long have you had a sore throat?",
+          "options": [
+            ["Less than 3 days", "short"],
+            ["3 to 7 days", "medium"],
+            ["More than 7 days", "long"]
+          ]
+        }
+      ]
+    },
+    "Fever": {
+      "label": "You selected the symptom: fever",
+      "flow": [
+        {
+          "field_id": "temp",
+          "question": "What is your highest temperature?",
+          "options": [
+            ["Below 38 C", "low"],
+            ["38 to 39 C", "medium"],
+            ["Above 39 C", "high"]
+          ]
+        },
+        {
+          "field_id": "duration",
+          "question": "How long have you had a fever?",
+          "options": [
+            ["Less than 24 hours", "short"],
+            ["1 to 3 days", "medium"],
+            ["More than 3 days", "long"]
+          ]
+        }
+      ]
+    },
+    "Dizziness": {
+      "label": "You selected the symptom: dizziness",
+      "flow": [
+        {
+          "field_id": "onset",
+          "question": "How did the dizziness start?",
+          "options": [
+            ["Suddenly", "sudden"],
+            ["Gradually", "gradual"]
+          ]
+        },
+        {
+          "field_id": "trigger",
+          "question": "When is it worst?",
+          "options": [
+            ["When standing up", "standing"],
+            ["When walking or moving", "moving"],
+            ["All the time", "constant"]
+          ]
+        }
+      ]
+    },
+    "Weakness": {
+      "label": "You selected the symptom: weakness",
+      "flow": [
+        {
+          "field_id": "spread",
+          "question": "Where do you feel weakness?",
+          "options": [
+            ["Whole body", "general"],
+            ["In one area", "local"]
+          ]
+        },
+        {
+          "field_id": "duration",
+          "question": "How long have you felt weak?",
+          "options": [
+            ["Less than 3 days", "short"],
+            ["3 to 7 days", "medium"],
+            ["More than 7 days", "long"]
+          ]
+        }
+      ]
+    },
+    "Light shortness of breath": {
+      "label": "You selected the symptom: light shortness of breath",
+      "flow": [
+        {
+          "field_id": "trigger",
+          "question": "When do you feel short of breath?",
+          "options": [
+            ["Only with activity", "exertion"],
+            ["Even at rest", "rest"]
+          ]
+        },
+        {
+          "field_id": "chest_pain",
+          "question": "Do you also have chest pain?",
+          "options": [
+            ["No", "no"],
+            ["Yes", "yes"]
+          ]
+        }
+      ]
+    },
+    "Urination issues": {
+      "label": "You selected urination issues",
+      "flow": [
+        {
+          "field_id": "amount_change",
+          "question": "Have you been peeing more or less recently?",
+          "options": [
+            ["Less", "less"],
+            ["Same", "same"],
+            ["More", "more"],
+            ["Inability to pee", "inability"]
+          ]
+        },
+        {
+          "field_id": "appearance",
+          "question": "How would you describe your urine?",
+          "options": [
+            ["Cloudy", "cloudy"],
+            ["Bloody", "bloody"],
+            ["Pale yellow or clear", "pale_or_clear"],
+            ["Unusual colors", "unusual_color"]
+          ]
+        },
+        {
+          "field_id": "burning",
+          "question": "Does it burn when you pee?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        }
+      ]
+    },
+    "Bowel movement issues": {
+      "label": "You selected bowel movement issues",
+      "flow": [
+        {
+          "field_id": "habit_change",
+          "question": "Have your bowel habits changed?",
+          "options": [
+            ["Constipation", "constipation"],
+            ["Diarrhea", "diarrhea"],
+            ["Both", "both"],
+            ["No change", "no_change"]
+          ]
+        },
+        {
+          "field_id": "stool_appearance",
+          "question": "Have you noticed anything unusual in your stool?",
+          "options": [
+            ["Blood", "blood"],
+            ["Mucus", "mucus"],
+            ["Strange color", "strange_color"],
+            ["None", "none"]
+          ]
+        },
+        {
+          "field_id": "painful",
+          "question": "Are bowel movements painful?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        }
+      ]
+    },
+    "Pain": {
+      "label": "You selected a pain symptom",
+      "flow": [
+        {
+          "field_id": "location",
+          "question": "Where is the pain located?",
+          "options": [
+            ["Head", "head"],
+            ["Chest", "chest"],
+            ["Abdomen", "abdomen"],
+            ["Back", "back"],
+            ["Limbs", "limbs"],
+            ["Everywhere", "everywhere"]
+          ]
+        },
+        {
+          "field_id": "severity",
+          "question": "How severe is the pain?",
+          "options": [
+            ["1–3 mild", "mild"],
+            ["4–6 moderate", "moderate"],
+            ["7–10 severe", "severe"]
+          ]
+        },
+        {
+          "field_id": "type",
+          "question": "What type of pain is it?",
+          "options": [
+            ["Sharp", "sharp"],
+            ["Dull", "dull"],
+            ["Burning", "burning"],
+            ["Throbbing", "throbbing"],
+            ["Pressure", "pressure"]
+          ]
+        },
+        {
+          "field_id": "movement_worse",
+          "question": "Does the pain increase when you move that body part?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        }
+      ]
+    },
+    "Hearing problems": {
+      "label": "You selected hearing problems",
+      "flow": [
+        {
+          "field_id": "side",
+          "question": "Is the hearing issue in one ear or both?",
+          "options": [
+            ["One", "one"],
+            ["Both", "both"]
+          ]
+        },
+        {
+          "field_id": "issue_type",
+          "question": "What type of issue?",
+          "options": [
+            ["Muffled hearing", "muffled"],
+            ["Ringing or tinnitus", "tinnitus"],
+            ["Hearing loss", "loss"],
+            ["Ear pressure", "pressure"]
+          ]
+        },
+        {
+          "field_id": "sudden",
+          "question": "Did it start suddenly?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        }
+      ]
+    },
+    "Loss of smell": {
+      "label": "You selected loss of smell",
+      "flow": [
+        {
+          "field_id": "sudden",
+          "question": "Did the loss of smell begin suddenly?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        },
+        {
+          "field_id": "nasal_symptoms",
+          "question": "Do you have nasal symptoms?",
+          "options": [
+            ["Congestion", "congestion"],
+            ["Runny nose", "runny"],
+            ["None", "none"]
+          ]
+        },
+        {
+          "field_id": "taste",
+          "question": "Can you still taste normally?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        }
+      ]
+    },
+    "Difficulty swallowing": {
+      "label": "You selected difficulty swallowing",
+      "flow": [
+        {
+          "field_id": "what_swallow",
+          "question": "What is hard to swallow?",
+          "options": [
+            ["Solids", "solids"],
+            ["Liquids", "liquids"],
+            ["Both", "both"]
+          ]
+        },
+        {
+          "field_id": "painful",
+          "question": "Is swallowing painful?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        },
+        {
+          "field_id": "stuck",
+          "question": "Does food feel like it gets stuck?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        }
+      ]
+    },
+    "Vision problems": {
+      "label": "You selected vision problems",
+      "flow": [
+        {
+          "field_id": "issue_type",
+          "question": "What type of vision issue are you having?",
+          "options": [
+            ["Blurry", "blurry"],
+            ["Double vision", "double"],
+            ["Loss of vision", "loss"],
+            ["Spots or flashes", "spots_flashes"]
+          ]
+        },
+        {
+          "field_id": "side",
+          "question": "Is the issue in one eye or both?",
+          "options": [
+            ["One", "one"],
+            ["Both", "both"]
+          ]
+        },
+        {
+          "field_id": "sudden",
+          "question": "Did the vision problem start suddenly?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        }
+      ]
+    },
+    "Coughing": {
+      "label": "You selected coughing",
+      "flow": [
+        {
+          "field_id": "duration",
+          "question": "How long have you been coughing?",
+          "options": [
+            ["Hours", "hours"],
+            ["Days", "days"],
+            ["Weeks", "weeks"]
+          ]
+        },
+        {
+          "field_id": "type",
+          "question": "What type of cough do you have?",
+          "options": [
+            ["Dry", "dry"],
+            ["Wet, fluid comes out", "wet"]
+          ]
+        },
+        {
+          "field_id": "mucus",
+          "question": "If wet, what is the mucus like?",
+          "options": [
+            ["Clear", "clear"],
+            ["Yellow or green", "yellow_green"],
+            ["Bloody", "bloody"],
+            ["None", "none"]
+          ]
+        }
+      ]
+    },
+    "Sneezing": {
+      "label": "You selected sneezing",
+      "flow": [
+        {
+          "field_id": "other_symptoms",
+          "question": "Is sneezing with other symptoms?",
+          "options": [
+            ["Runny nose", "runny_nose"],
+            ["Itchy eyes", "itchy_eyes"],
+            ["Congestion", "congestion"],
+            ["None", "none"]
+          ]
+        },
+        {
+          "field_id": "allergy_related",
+          "question": "Does it seem related to allergies?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"],
+            ["Unsure", "unsure"]
+          ]
+        },
+        {
+          "field_id": "frequency",
+          "question": "How often are you sneezing?",
+          "options": [
+            ["Rare", "rare"],
+            ["Intermittent", "intermittent"],
+            ["Frequent", "frequent"]
+          ]
+        }
+      ]
+    },
+    "Mood swings": {
+      "label": "You selected mood swings",
+      "flow": [
+        {
+          "field_id": "frequency",
+          "question": "How often are your mood changes occurring?",
+          "options": [
+            ["Rare", "rare"],
+            ["Intermittent", "intermittent"],
+            ["Frequent", "frequent"]
+          ]
+        },
+        {
+          "field_id": "triggers",
+          "question": "Are mood swings triggered by anything?",
+          "options": [
+            ["Stress", "stress"],
+            ["Unknown", "unknown"]
+          ]
+        },
+        {
+          "field_id": "functioning",
+          "question": "Do mood changes affect your daily functioning?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"]
+          ]
+        }
+      ]
+    },
+    "Chills": {
+      "label": "You selected chills",
+      "flow": [
+        {
+          "field_id": "fever",
+          "question": "Do you also have a fever?",
+          "options": [
+            ["Yes", "yes"],
+            ["No", "no"],
+            ["Unsure", "unsure"]
+          ]
+        },
+        {
+          "field_id": "pattern",
+          "question": "When do the chills occur?",
+          "options": [
+            ["Random", "random"],
+            ["In waves", "waves"],
+            ["Constant", "constant"]
+          ]
+        },
+        {
+          "field_id": "other_symptoms",
+          "question": "Are there other symptoms?",
+          "options": [
+            ["Cough", "cough"],
+            ["Sore throat", "sore_throat"],
+            ["Body aches", "body_aches"],
+            ["None", "none"]
+          ]
+        }
+      ]
+    },
+    "Heart palpitations": {
+      "label": "You selected heart palpitations",
+      "flow": [
+        {
+          "field_id": "sensation",
+          "question": "How would you describe the sensation?",
+          "options": [
+            ["Racing", "racing"],
+            ["Fluttering", "fluttering"],
+            ["Pounding", "pounding"],
+            ["Irregular beats", "irregular"]
+          ]
+        },
+        {
+          "field_id": "timing",
+          "question": "When do the palpitations occur?",
+          "options": [
+            ["At rest", "rest"],
+            ["With activity", "activity"],
+            ["Random", "random"]
+          ]
+        },
+        {
+          "field_id": "other_symptoms",
+          "question": "Are they associated with other symptoms?",
+          "options": [
+            ["Dizziness", "dizziness"],
+            ["Shortness of breath", "sob"],
+            ["Chest pain", "chest_pain"],
+            ["None", "none"]
+          ]
+        }
+      ]
+    }
+  }
+}

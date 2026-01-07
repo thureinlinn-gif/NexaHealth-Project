@@ -1,0 +1,85 @@
+{
+  "urgent": [
+    {
+      "name": "vybe Urgent Care – South Philadelphia",
+      "address": "1217 S Broad St, Philadelphia, PA 19147",
+      "hours": "Sat–Sun 8 AM–5 PM, Mon–Fri 8 AM–8 PM",
+      "map_url": "https://maps.app.goo.gl/B5Ys9qL385xE7g3j8"
+    },
+    {
+      "name": "AFC Urgent Care South Philadelphia",
+      "address": "1444 W Passyunk Ave, Philadelphia, PA 19145",
+      "hours": "Mon–Fri 8 AM–8 PM, Sat–Sun 8 AM–5 PM",
+      "map_url": "https://maps.app.goo.gl/mUD3cLn4HaRYNcjG8"
+    },
+    {
+      "name": "Jefferson Rittenhouse Urgent Care",
+      "address": "2021 Chestnut St, Philadelphia, PA 19103",
+      "hours": "Sat–Sun 8 AM–5:30 PM, Mon–Fri 8 AM–7:30 PM",
+      "map_url": "https://maps.app.goo.gl/QR1g7ehVxWHGCecz7"
+    }
+  ],
+
+  "er": [
+    {
+      "name": "Pennsylvania Hospital Emergency Department",
+      "address": "800 Spruce St, Philadelphia, PA 19107",
+      "hours": "Open 24/7",
+      "map_url": "https://maps.app.goo.gl/HTeadxbgEQ3whroS8"
+    },
+    {
+      "name": "Thomas Jefferson University Hospital Emergency Department",
+      "address": "111 S 11th St, Philadelphia, PA 19107",
+      "hours": "Open 24/7",
+      "map_url": "https://maps.app.goo.gl/Fr1mav6H9D2U38jE8"
+    },
+    {
+      "name": "Penn Presbyterian Medical Center Emergency Department",
+      "address": "51 N 39th St, Philadelphia, PA 19104",
+      "hours": "Open 24/7",
+      "map_url": "https://maps.app.goo.gl/aZGfMkTB7ZdHoWb89"
+    }
+  ],
+
+  "trauma": [
+    {
+      "name": "Penn Presbyterian Medical Center Level 1 Trauma Center",
+      "address": "51 N 39th St, Philadelphia, PA 19104",
+      "hours": "Open 24/7",
+      "map_url": "https://maps.app.goo.gl/aZGfMkTB7ZdHoWb89"
+    },
+    {
+      "name": "Temple University Hospital – Trauma & Surgical Critical Care",
+      "address": "Philadelphia, PA",
+      "hours": "Open 24/7",
+      "map_url": "https://maps.app.goo.gl/XJQAu7AqMBn4vdj59"
+    },
+    {
+      "name": "Einstein Medical Center Philadelphia – Level I Trauma Center",
+      "address": "Philadelphia, PA",
+      "hours": "Open 24/7",
+      "map_url": "https://maps.app.goo.gl/HMV1Ar8yzum26W5DA"
+    }
+  ],
+
+  "appointment": [
+    {
+      "name": "Delancey Internal Medicine South Philadelphia",
+      "address": "1930 S Broad St, Philadelphia, PA 19145",
+      "hours": "Mon–Fri 8 AM–5 PM",
+      "map_url": "https://maps.app.goo.gl/E57oTSDsThJDVoCy8"
+    },
+    {
+      "name": "CCP at Jefferson – South Broad",
+      "address": "1703 S Broad St, Philadelphia, PA 19148",
+      "hours": "Mon–Fri 8 AM–4 PM",
+      "map_url": "https://maps.app.goo.gl/Juuw2GoRFDapjK8v5"
+    },
+    {
+      "name": "myDoc Urgent Care & Primary Care Philadelphia",
+      "address": "1501 N Broad St #10, Philadelphia, PA 19122",
+      "hours": "Mon–Sat 8 AM–8 PM, Sun 10 AM–3 PM",
+      "map_url": "https://maps.app.goo.gl/LKJEnPoyiLk91wS16"
+    }
+  ]
+}
