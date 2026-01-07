@@ -1,0 +1,13 @@
+project_id = "tsomlaztszwlwkxhcgnh"
+
+[functions.classify-wound]
+verify_jwt = false
+
+[functions.calculate-severity]
+verify_jwt = false
+
+[functions.find-facilities]
+verify_jwt = false
+
+[functions.chat]
+verify_jwt = false
