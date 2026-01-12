@@ -85,4 +85,4 @@ To pull the latest frontend code from the `lovable` remote:
 
 - Model files (`.joblib`, `.pkl`) are gitignored - train locally
 - Dataset (`Wound_dataset/`) is gitignored due to size
-- Frontend is maintained separately in the `lovable` remote
+
