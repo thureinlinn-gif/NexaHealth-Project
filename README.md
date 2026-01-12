@@ -70,13 +70,6 @@ To pull the latest frontend code from the `lovable` remote:
 ./update_frontend.sh
 ```
 
-Or manually:
-```bash
-cd frontend
-git fetch lovable
-git checkout lovable/main -- .
-```
-
 ## Backend API Endpoints
 
 - `GET /` - Demo page
@@ -86,8 +79,7 @@ git checkout lovable/main -- .
 ## Development Workflow
 
 1. **Modify backend:** Edit files in `backend/`
-2. **Update frontend:** Pull from `lovable` remote when needed
-3. **Connect them:** Frontend should call backend API at `http://localhost:5001`
+2. **Connect them:** Frontend should call backend API at `http://localhost:5001`
 
 ## Notes
 
